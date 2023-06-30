@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@layer base {
+	body {
+		@apply font-ComicNeue;
+		@apply bg-[url('src/assets/images/background.svg')] bg-[length:300%_150%] bg-center bg-no-repeat;
+	}
+}
+
+*::-webkit-scrollbar {
+	width: 0px;
+}
